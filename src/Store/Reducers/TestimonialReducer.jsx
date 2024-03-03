@@ -1,17 +1,15 @@
-import { ADD_TESTIMONIAL_RED, DELETE_TESTIMONIAL_RED, GET_TESTIMONIAL_RED, UPDATE_TESTIMONIAL_RED } from "../Sagas/Constants";
-
-
+import { ADD_TESTIMONIAL_RED, DELETE_TESTIMONIAL_RED, GET_TESTIMONIAL_RED, UPDATE_TESTIMONIAL_RED } from "../Constants"
 export default function TestimonialReducer(state = [], action) {
     let newState, index
     switch (action.type) {
         case GET_TESTIMONIAL_RED:
-            return action.payload
+            return action.payload.reverse()
         case ADD_TESTIMONIAL_RED:
-            newState = state
+            newState = [...state]
             newState.push(action.payload)
             return newState
         case UPDATE_TESTIMONIAL_RED:
-            index = state.findIndex((x) => x.id === Number(action.payload.id))
+            index = state.findIndex((x) => x.id === action.payload.id)
             state[index].name = action.payload.name
             state[index].message = action.payload.message
             state[index].pic = action.payload.pic
@@ -23,6 +21,5 @@ export default function TestimonialReducer(state = [], action) {
             return newState
         default:
             return state
-
     }
 }

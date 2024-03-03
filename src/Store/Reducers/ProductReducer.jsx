@@ -1,11 +1,9 @@
-import { ADD_PRODUCT_RED, DELETE_PRODUCT_RED, GET_PRODUCT_RED, UPDATE_PRODUCT_RED } from "../Sagas/Constants";
-
-
+import { ADD_PRODUCT_RED, DELETE_PRODUCT_RED, GET_PRODUCT_RED, UPDATE_PRODUCT_RED } from "../Constants"
 export default function ProductReducer(state = [], action) {
     let newState, index
     switch (action.type) {
         case GET_PRODUCT_RED:
-            return action.payload
+            return action.payload.reverse()
         case ADD_PRODUCT_RED:
             newState = [...state]
             newState.push(action.payload)
@@ -33,6 +31,5 @@ export default function ProductReducer(state = [], action) {
             return newState
         default:
             return state
-
     }
 }
