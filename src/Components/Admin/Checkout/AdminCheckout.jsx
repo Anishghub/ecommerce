@@ -18,7 +18,7 @@ export default function AdminCheckout() {
         { field: 'date', headerName: 'Date', width: 100 ,renderCell:(({row})=><p>{new Date(row.date).toLocaleDateString()}</p>)},
         {
             field: 'show',
-            headerName: 'Show',
+            headerName: 'Show', 
             sortable: false,
             renderCell: ({ row }) => <Link to={`/admin/checkouts/show/${row.id}`}><i className='fa fa-eye text-primary'></i></Link>
         }

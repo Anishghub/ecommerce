@@ -84,6 +84,7 @@ export default function UpdateProduct() {
         e.preventDefault()
         if (!(Object.keys(errorMessages).find((x) => errorMessages[x] && errorMessages[x] !== ""))) {
             let fp = data.baseprice - data.baseprice * data.discount / 100
+            console.log("image: ",data.pic1,data.pic2,data.pic3,data.pic4)
             let formData = {
                 id: id,
                 name: data.name,

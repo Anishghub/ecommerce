@@ -38,7 +38,7 @@ export default function Home() {
                             <h1 className="mb-5 display-3 text-primary">Tops Brands Products</h1>
                             <div className="position-relative mx-auto">
                                 <input className="form-control border-2 border-primary w-75 py-3 px-4 rounded-pill" type="number" placeholder="Search" />
-                                <button type="submit" className="btn btn-primary border-2 border-primary py-3 px-4 position-absolute rounded-pill text-white h-100" style={{ top: 0, right: "25%" }}>Submit Now</button>
+                                <button type="submit" className="btn btn-primary border-2 border-primary py-3 px-4 position-down rounded-pill text-white h-100" style={{ top: 0, right: "25%" }}>Submit Now</button>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-5">
@@ -170,7 +170,7 @@ export default function Home() {
                                                     <div className="fruite-img">
                                                         <img src={`/product-images/${item.pic1}`} style={{ height: 250, width: "100%" }} className="img-fluid w-100 rounded-top" alt="" />
                                                     </div>
-                                                    <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
+                                                    <div className="text-white bg-primary px-3 py-1 rounded position-down" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
                                                     <div className="p-4">
                                                         <h6 style={{ height: 30 }}>{item.name}</h6>
                                                         <p>Color : {item.color} Size = {item.size}</p>
@@ -192,7 +192,7 @@ export default function Home() {
                                                     <div className="fruite-img">
                                                         <img src={`/product-images/${item.pic1}`} style={{ height: 250, width: "100%" }} className="img-fluid w-100 rounded-top" alt="" />
                                                     </div>
-                                                    <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
+                                                    <div className="text-white bg-primary px-3 py-1 rounded position-down" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
                                                     <div className="p-4">
                                                         <h6 style={{ height: 30 }}>{item.name}</h6>
                                                         <p>Color : {item.color} Size = {item.size}</p>
@@ -214,7 +214,7 @@ export default function Home() {
                                                     <div className="fruite-img">
                                                         <img src={`/product-images/${item.pic1}`} style={{ height: 250, width: "100%" }} className="img-fluid w-100 rounded-top" alt="" />
                                                     </div>
-                                                    <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
+                                                    <div className="text-white bg-primary px-3 py-1 rounded position-down" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
                                                     <div className="p-4">
                                                         <h6 style={{ height: 30 }}>{item.name}</h6>
                                                         <p>Color : {item.color} Size = {item.size}</p>
@@ -236,7 +236,7 @@ export default function Home() {
                                                     <div className="fruite-img">
                                                         <img src={`/product-images/${item.pic1}`} style={{ height: 250, width: "100%" }} className="img-fluid w-100 rounded-top" alt="" />
                                                     </div>
-                                                    <div className="text-white bg-primary px-3 py-1 rounded position-absolute" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
+                                                    <div className="text-white bg-primary px-3 py-1 rounded position-down" style={{ top: "10px", left: "10px" }}>{item.maincategory}/{item.subcategory}/{item.brand}</div>
                                                     <div className="p-4">
                                                         <h6 style={{ height: 30 }}>{item.name}</h6>
                                                         <p>Color : {item.color} Size = {item.size}</p>
@@ -289,7 +289,7 @@ export default function Home() {
                         <div className="col-md-6 col-lg-4">
                             <a href="#">
                                 <div className="service-item bg-primary rounded">
-                                    <img src="/img/banner5.jpg" className="img-fluid rounded-top w-100" alt="" />
+                                    <img src="/img/banner8.jpg" className="img-fluid rounded-top w-100" alt="" />
                                     <div className="px-4 rounded-bottom">
                                         <div className="service-content bg-light text-center p-4 rounded">
                                             <h5 className="text-dark">Top Brands</h5>

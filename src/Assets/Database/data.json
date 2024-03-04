@@ -29,6 +29,22 @@
     {
       "id": "4",
       "name": "Jeans"
+    },
+    {
+      "id": "2549",
+      "name": "Beauty"
+    },
+    {
+      "id": "f8f8",
+      "name": "ethenic"
+    },
+    {
+      "id": "9b0b",
+      "name": "Traditional"
+    },
+    {
+      "id": "01dc",
+      "name": "Three Piece"
     }
   ],
   "brand": [
@@ -75,14 +91,22 @@
     {
       "id": "11",
       "name": "Mufti"
+    },
+    {
+      "id": "c0b3",
+      "name": "Bath and Body"
+    },
+    {
+      "id": "da4b",
+      "name": "Raymond"
     }
   ],
   "product": [
     {
       "id": "1",
       "name": "Male Jeans Slim Fit",
-      "maincategory": "Male",
-      "subcategory": "Jeans",
+      "maincategory": "Kids",
+      "subcategory": "Trouser",
       "brand": "Mufti",
       "color": "Black",
       "size": "30",
@@ -91,7 +115,7 @@
       "finalprice": 3447.5,
       "stock": "In Stock",
       "description": "<p><span style=\"color: rgb(230, 126, 35);\"><em><span style=\"text-decoration: underline;\"><strong>This is Sample Product</strong></span></em></span></p>",
-      "pic1": "p1.jpg",
+      "pic1": "kids3.webp",
       "pic2": "p2.jpg",
       "pic3": "p7.jpg",
       "pic4": "p5.jpg"
@@ -108,8 +132,8 @@
       "discount": 50,
       "finalprice": 2250,
       "stock": "In Stock",
-      "description": "This is a Sample Product",
-      "pic1": "p7.jpg",
+      "description": "<p>This is a Sample Product</p>",
+      "pic1": "amazon.jpg",
       "pic2": "p5.jpg",
       "pic3": "p1.jpg",
       "pic4": "p2.jpg"
@@ -122,274 +146,256 @@
       "brand": "Tommy Hilfiger",
       "color": "Blue",
       "size": "36",
-      "baseprice": "6500",
-      "discount": "65",
+      "baseprice": 6500,
+      "discount": 65,
       "finalprice": 2275,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p5.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "malepic3.webp",
       "pic2": "p2.jpg",
       "pic3": "p1.jpg",
       "pic4": "p7.jpg"
     },
     {
+      "id": "4",
       "name": "Male Jeans Blue",
       "maincategory": "Male",
       "subcategory": "Jeans",
       "brand": "Adidas",
       "color": "Blue",
       "size": "34",
-      "baseprice": "48700",
-      "discount": "87",
+      "baseprice": 48700,
+      "discount": 87,
       "finalprice": 6331,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p1.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "Sweatshirts_and_hoodies_978x1256._SX564_QL85_FMpng_.png",
       "pic2": "p2.jpg",
       "pic3": "p5.jpg",
-      "pic4": "p10.jpg",
-      "id": "4"
+      "pic4": "p10.jpg"
     },
     {
+      "id": "5",
       "name": "Male Tshirt Polo",
       "maincategory": "Male",
       "subcategory": "Tshirt",
       "brand": "Polo",
       "color": "White",
       "size": "MD",
-      "baseprice": "4500",
-      "discount": "80",
+      "baseprice": 4500,
+      "discount": 80,
       "finalprice": 900,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p2.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "men_fashion.jpg",
       "pic2": "p15.jpg",
       "pic3": "p24.jpg",
-      "pic4": "p29.jpg",
-      "id": "5"
+      "pic4": "p29.jpg"
     },
     {
+      "id": "6",
       "name": "Male Shirt Nike",
       "maincategory": "Male",
       "subcategory": "Shirt",
       "brand": "Nike",
       "color": "Green Check",
       "size": "XL",
-      "baseprice": "4500",
-      "discount": "90",
+      "baseprice": 4500,
+      "discount": 90,
       "finalprice": 450,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p25.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "pic1.jpeg",
       "pic2": "p26.jpg",
       "pic3": "p40.jpg",
-      "pic4": "p38.jpg",
-      "id": "6"
+      "pic4": "p38.jpg"
     },
     {
+      "id": "7",
       "name": "Male Tshirt Black Adidas",
       "maincategory": "Male",
       "subcategory": "Tshirt",
       "brand": "Adidas",
       "color": "Black",
       "size": "XXL",
-      "baseprice": "15000",
-      "discount": "80",
+      "baseprice": 15000,
+      "discount": 80,
       "finalprice": 3000,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p3.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "kiara.jpg",
       "pic2": "p51.jpg",
       "pic3": "p52.jpg",
-      "pic4": "p49.jpg",
-      "id": "7"
+      "pic4": "p49.jpg"
     },
     {
+      "id": "8",
       "name": "Male Trouser Polo",
       "maincategory": "Male",
       "subcategory": "Trouser",
       "brand": "Polo",
       "color": "Black",
       "size": "34",
-      "baseprice": "8500",
-      "discount": "85",
+      "baseprice": 8500,
+      "discount": 85,
       "finalprice": 1275,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p10.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "pic2.webp",
       "pic2": "p11.jpg",
       "pic3": "p41.jpg",
-      "pic4": "p44.jpg",
-      "id": "8"
+      "pic4": "p44.jpg"
     },
     {
+      "id": "9",
       "name": "Female Jeans Slim Fit",
       "maincategory": "Female",
       "subcategory": "Jeans",
       "brand": "Mufti",
       "color": "Blue",
       "size": "32",
-      "baseprice": "4500",
-      "discount": "45",
+      "baseprice": 4500,
+      "discount": 45,
       "finalprice": 2475,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p12.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "kids23.webp",
       "pic2": "p17.jpg",
       "pic3": "p19.jpg",
-      "pic4": "p47.jpg",
-      "id": "9"
+      "pic4": "p47.jpg"
     },
     {
       "id": "10",
       "name": "Female Jeans Mufti",
-      "maincategory": "Female",
+      "maincategory": "Kids",
       "subcategory": "Jeans",
       "brand": "Mufti",
       "color": "Blue",
       "size": "28",
-      "baseprice": "8580",
-      "discount": "80",
+      "baseprice": 8580,
+      "discount": 80,
       "finalprice": 1716,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p32.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "kids_fashion_2.jpg",
       "pic2": "p12.jpg",
       "pic3": "p53.jpg",
       "pic4": "p73.jpg"
     },
     {
+      "id": "11",
       "name": "Female Tshirt Adidas",
       "maincategory": "Female",
       "subcategory": "Tshirt",
       "brand": "Adidas",
       "color": "White",
       "size": "MD",
-      "baseprice": "4500",
-      "discount": "45",
+      "baseprice": 4500,
+      "discount": 45,
       "finalprice": 2475,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p22.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "women_fashion_2.jpg",
       "pic2": "p28.jpg",
       "pic3": "p39.jpg",
-      "pic4": "p23.jpg",
-      "id": "11"
+      "pic4": "p23.jpg"
     },
     {
+      "id": "12",
       "name": "Female Tshirt White Mufti",
       "maincategory": "Female",
       "subcategory": "Tshirt",
       "brand": "Mufti",
       "color": "White",
       "size": "M",
-      "baseprice": "2500",
-      "discount": "85",
+      "baseprice": 2500,
+      "discount": 85,
       "finalprice": 375,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p23.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "women_fashion.jpg",
       "pic2": "p28.jpg",
       "pic3": "p19.jpg",
-      "pic4": "p6.jpg",
-      "id": "12"
+      "pic4": "p6.jpg"
     },
     {
+      "id": "13",
       "name": "Female Shirt Gucci",
       "maincategory": "Female",
       "subcategory": "Shirt",
       "brand": "Gucci",
       "color": "White",
       "size": "M",
-      "baseprice": "8585",
-      "discount": "25",
-      "finalprice": 6439,
+      "baseprice": 8585,
+      "discount": 25,
+      "finalprice": 6438.75,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p72.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "suit.webp",
       "pic2": "p71.jpg",
       "pic3": "p70.jpg",
-      "pic4": "p9.jpg",
-      "id": "13"
+      "pic4": "p9.jpg"
     },
     {
-      "name": "Kids Jeans Tommy Hilfiger",
+      "id": "14",
+      "name": "EL Sultan",
       "maincategory": "Kids",
-      "subcategory": "Jeans",
-      "brand": "Tommy Hilfiger",
+      "subcategory": "Traditional",
+      "brand": "Bath and Body",
       "color": "Black",
       "size": "26",
-      "baseprice": "5000",
-      "discount": "50",
-      "finalprice": 2500,
+      "baseprice": 3599,
+      "discount": 50,
+      "finalprice": 1799.5,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p43.jpg",
+      "description": "<p>This product is not exported without any prescription&nbsp;</p>",
+      "pic1": "sultan.jpeg",
       "pic2": "p43.jpg",
       "pic3": "p42.jpg",
-      "pic4": "p66.jpg",
-      "id": "14"
+      "pic4": "p66.jpg"
     },
     {
+      "id": "15",
       "name": "Male Jeans",
       "maincategory": "Male",
-      "subcategory": "Jeans",
-      "brand": "Adidas",
+      "subcategory": "Shirt",
+      "brand": "Gucci",
       "color": "Black",
       "size": "34",
-      "baseprice": "4500",
-      "discount": "45",
+      "baseprice": 4500,
+      "discount": 45,
       "finalprice": 2475,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p16.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "pic1.webp",
       "pic2": "p7.jpg",
       "pic3": "p44.jpg",
-      "pic4": "p5.jpg",
-      "id": "15"
+      "pic4": "p5.jpg"
     },
     {
-      "name": "Male Jeans Regular Fit",
-      "maincategory": "Male",
-      "subcategory": "Jeans",
-      "brand": "Adidas",
-      "color": "Blue",
-      "size": "34",
-      "baseprice": "8585",
-      "discount": "85",
-      "finalprice": 1288,
-      "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p44.jpg",
-      "pic2": "p7.jpg",
-      "pic3": "p2.jpg",
-      "pic4": "p11.jpg",
-      "id": "16"
-    },
-    {
+      "id": "17",
       "name": "Male Jeans Ripped",
-      "maincategory": "Male",
+      "maincategory": "Kids",
       "subcategory": "Jeans",
       "brand": "Adidas",
       "color": "Black",
       "size": "32",
-      "baseprice": "9850",
-      "discount": "50",
+      "baseprice": 9850,
+      "discount": 50,
       "finalprice": 4925,
       "stock": "In Stock",
-      "description": "This is Sample Product",
-      "pic1": "p41.jpg",
+      "description": "<p>This is Sample Product</p>",
+      "pic1": "kids.webp",
       "pic2": "p10.jpg",
       "pic3": "p2.jpg",
-      "pic4": "p1.jpg",
-      "id": "17"
+      "pic4": "p1.jpg"
     },
     {
       "id": "18",
-      "name": "Male Jeans Slim  Fit",
+      "name": "Knok",
       "maincategory": "Male",
-      "subcategory": "Jeans",
-      "brand": "Mufti",
+      "subcategory": "Three Piece",
+      "brand": "Raymond",
       "color": "Black",
       "size": "36",
       "baseprice": 7800,
@@ -397,28 +403,10 @@
       "finalprice": 1716,
       "stock": "In Stock",
       "description": "<h3 class=\"product-facts-title\">Product details</h3>\n<div class=\"a-fixed-left-grid product-facts-detail\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\" style=\"text-align: left;\"><span class=\"a-color-base\"><strong>Material type&nbsp; </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class=\"a-color-base\">Cotton</span></div>\n</div>\n</div>\n<div class=\"a-fixed-left-grid product-facts-detail\" style=\"text-align: left;\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\"><span class=\"a-color-base\"><strong>Style&nbsp; &nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class=\"a-color-base\">Classic</span></div>\n</div>\n</div>\n<div class=\"a-fixed-left-grid product-facts-detail\" style=\"text-align: left;\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\"><span class=\"a-color-base\"><strong>Closure type&nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class=\"a-color-base\">Button</span></div>\n</div>\n</div>\n<div class=\"a-fixed-left-grid product-facts-detail\" style=\"text-align: left;\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\"><span class=\"a-color-base\"><strong>Occasion type</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class=\"a-color-base\">Casual</span></div>\n</div>\n</div>\n<div class=\"a-fixed-left-grid product-facts-detail\" style=\"text-align: left;\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\"><span class=\"a-color-base\"><strong>Care instructions</strong>&nbsp; &nbsp; &nbsp; &nbsp;</span><span class=\"a-color-base\">Machine Wash</span></div>\n</div>\n</div>\n<div class=\"a-fixed-left-grid product-facts-detail\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\" style=\"text-align: left;\"><span class=\"a-color-base\"><strong>Fit type&nbsp; </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class=\"a-color-base\">Regular</span></div>\n</div>\n</div>\n<hr class=\"a-spacing-base a-spacing-top-base a-divider-normal\" aria-hidden=\"true\">\n<h3 class=\"product-facts-title\">About this item</h3>\n<ul class=\"a-unordered-list a-vertical a-spacing-small\">\n<li><span class=\"a-list-item a-size-base a-color-base\">Fabric Care Description :: 100% Cotton, Machine wash</span></li>\n</ul>\n<ul class=\"a-unordered-list a-vertical a-spacing-small\">\n<li><span class=\"a-list-item a-size-base a-color-base\">Fit Type :: Regular Fit</span></li>\n</ul>\n<ul class=\"a-unordered-list a-vertical a-spacing-small\">\n<li><span class=\"a-list-item a-size-base a-color-base\">Rise Type :: Mid Rise</span></li>\n</ul>\n<ul class=\"a-unordered-list a-vertical a-spacing-small\">\n<li><span class=\"a-list-item a-size-base a-color-base\">Closure Type :: Button &amp; Zip</span></li>\n</ul>\n<ul class=\"a-unordered-list a-vertical a-spacing-small\">\n<li><span class=\"a-list-item a-size-base a-color-base\">Stretchability :: Non stretchable</span></li>\n</ul>\n<hr class=\"a-spacing-base a-spacing-top-base a-divider-normal\" aria-hidden=\"true\">\n<h3 class=\"product-facts-title\">Additional Information</h3>\n<div class=\"a-fixed-left-grid product-facts-detail\">\n<div class=\"a-fixed-left-grid-inner\">\n<div class=\"a-fixed-left-grid-col a-col-left\"><span class=\"a-color-base\">Manufacturer</span></div>\n<div class=\"a-fixed-left-grid-col a-col-right\"><span class=\"a-color-base\">Raymond Uco Denim Pvt Ltd D1 &amp; D2, Apparel Park,,Bangalore,561203,IN, Raymond Uco Denim Pvt Ltd</span></div>\n</div>\n</div>",
-      "pic1": "p16.jpg",
+      "pic1": "anish.jpg.jpg",
       "pic2": "p1.jpg",
       "pic3": "p2.jpg",
       "pic4": "p7.jpg"
-    },
-    {
-      "id": "19",
-      "name": "Male jeans Adidas",
-      "maincategory": "Male",
-      "subcategory": "Jeans",
-      "brand": "Adidas",
-      "color": "Black",
-      "size": "34",
-      "baseprice": 4500,
-      "discount": 45,
-      "finalprice": 2475,
-      "stock": "In Stock",
-      "description": "<p>These <strong>Adidas </strong>jeans are a must-have for any man looking for a classic, versatile pair. Made from a soft, stretchy cotton fabric, they are designed to be comfortable and breathable.</p>\n<p>The mid-blue wash gives them a one-of-a-kind look that will keep them fashion-forward. Add on a denim jacket and sneakers for a classic combination.</p>",
-      "pic1": "p7.jpg",
-      "pic2": "p5.jpg",
-      "pic3": "p1.jpg",
-      "pic4": "p2.jpg"
     },
     {
       "id": "8717",
@@ -439,20 +427,20 @@
       "pic4": ""
     },
     {
-      "id": "a8bb",
-      "name": "massimo Dutti",
-      "maincategory": "Female",
-      "subcategory": "Tshirt",
-      "brand": "H&M",
-      "color": "black",
-      "size": "12",
-      "baseprice": 223230,
-      "discount": 21,
-      "finalprice": 176351.7,
+      "id": "473c",
+      "name": "army dress",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Puma",
+      "color": "army color",
+      "size": "32",
+      "baseprice": 12345,
+      "discount": 20,
+      "finalprice": 9876,
       "stock": "In Stock",
-      "description": "<p>&nbsp;latest internatinal bran in india</p>",
-      "pic1": "amazon.jpg",
-      "pic2": "",
+      "description": "<pre>This is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample Message</pre>",
+      "pic1": "kids_fashion_2.jpg",
+      "pic2": "female2.webp",
       "pic3": "",
       "pic4": ""
     }
@@ -466,13 +454,17 @@
       "phone": "7717761569",
       "password": "Anish@2580",
       "role": "Admin",
-      "pic": "p24.jpg"
+      "pic": "anish.jpg",
+      "address": "i254 beta2 greater noida",
+      "city": "NOIDA",
+      "state": "Haryana",
+      "pin": "202323"
     },
     {
       "id": "a0f5",
       "name": "Shweta sehrawat",
       "username": "nitin",
-      "email": "vishankchauhan@gmail.com",
+      "email": "anishsingh77177@gmail.com",
       "phone": "9873848046",
       "password": "Nitin@123",
       "role": "Buyer",
@@ -636,68 +628,130 @@
           "pic": "hero-img-1.webp"
         }
       ]
+    },
+    {
+      "id": "a514",
+      "userid": "cb03",
+      "orderstatus": "Order is Placed",
+      "paymentstatus": "Pending",
+      "paymentmode": "COD",
+      "subtotal": 6400,
+      "shipping": 0,
+      "total": 6400,
+      "date": "2024-03-03T18:53:14.868Z",
+      "products": [
+        {
+          "id": "36d8",
+          "productid": "8717",
+          "userid": "cb03",
+          "name": "Anish kumar",
+          "brand": "Polo",
+          "color": "black",
+          "size": "12",
+          "price": 6400,
+          "qty": 1,
+          "total": 6400,
+          "pic": "hero-img-1.webp"
+        }
+      ]
+    },
+    {
+      "id": "c2d7",
+      "userid": "cb03",
+      "orderstatus": "Order is Placed",
+      "paymentstatus": "Pending",
+      "paymentmode": "COD",
+      "subtotal": 19200,
+      "shipping": 0,
+      "total": 19200,
+      "date": "2024-03-03T20:43:12.894Z",
+      "products": [
+        {
+          "id": "3adc",
+          "productid": "8717",
+          "userid": "cb03",
+          "name": "Anish kumar",
+          "brand": "Polo",
+          "color": "black",
+          "size": "12",
+          "price": 6400,
+          "qty": 3,
+          "total": 19200,
+          "pic": "hero-img-1.webp"
+        }
+      ]
     }
   ],
   "newsletter": [
     {
       "id": "e6a6",
-      "email": "vishankchauhan@gmail.com"
+      "email": "anishsingh77177@gmail.com"
     },
     {
       "id": "7619",
-      "email": "vishankchauhan1@gmail.com"
+      "email": "anishsingh77177@gmail.com"
     },
     {
       "id": "aa4c",
-      "email": "vishankchauhan2@gmail.com"
+      "email": "anishsingh77177@gmail.com"
     }
   ],
   "contactus": [
     {
-      "id": "4143",
-      "name": "Nitin Chauhan",
-      "email": "vishankchauhan@gmail.com",
-      "phone": "9873848046",
-      "subject": "This is Sample Message",
-      "message": "This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message This is Sample Message ",
-      "date": "2024-02-26T08:12:11.172Z",
-      "active": false
-    },
-    {
       "id": "359f",
       "name": "Nitin Chauhan",
-      "email": "vishankchauhan@gmail.com",
+      "email": "anishsingh77177@gmail.com",
       "phone": "9873848046",
       "subject": "AI that makes you more productive",
       "message": "This is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample MessageThis is Sample Message",
       "date": "2024-02-27T07:33:30.906Z",
+      "active": true
+    },
+    {
+      "id": "75cb",
+      "name": "Anish kumar",
+      "email": "anishsingh77177@gmail.com",
+      "phone": "7717761569",
+      "subject": "ffgfgg",
+      "message": "dfdfdfdfdfdfdfdfdfddfdfdfdfddffffffffffffffffffffffffffffffff",
+      "date": "2024-03-03T18:48:47.665Z",
+      "active": true
+    },
+    {
+      "id": "d267",
+      "name": "Shweta Sehrawat",
+      "email": "shwetas@2020gmail.com",
+      "phone": "7717761569",
+      "subject": "not needed",
+      "message": "message is required within 50 word and should be fillded",
+      "date": "2024-03-03T20:38:18.450Z",
       "active": true
     }
   ],
   "testimonial": [
     {
       "id": "ff47",
-      "name": "Nitin Chauhan",
-      "profession": "IT Professional",
+      "name": "Kiara Adani",
+      "profession": "Actress",
       "star": "5",
       "message": "Pros:\n\n80% cotton, 18% polyester, and 2% elastane for a comfortable stretch.\nSkinny fit that is snug at the waist, hip, and thigh.\nFitted from knee to ankle for a sleek look.\nZip fly with button closure for easy wear.\nFive-pocket styling for a classic look.\nAvailable in a variety of colors to suit your style.\nCons:\n\nMay not be as comfortable as looser-fitting jeans.\nMay not be suitable for all body types.\nOverall:\n\nI would recommend the Symbol Men's Skinny Fit Stretch Jeans to anyone looking for a stylish and comfortable pair of jeans. They are perfect for everyday wear and can be dressed up or down.",
-      "pic": "p1.jpg"
+      "pic": "kiara.jpg"
     },
     {
       "id": "2399",
-      "name": "Deepak Singh Gusain",
-      "profession": "IT Professional",
+      "name": "Kartik Aryan",
+      "profession": "Actor",
       "star": "5",
       "message": "Hey , If you're looking for a winter jacket with hoodie then you're looking it right now. I bought this one and have to say I'm quite impressed with its fitting and quality. No doubts. I love it. So don't wait just look out for your size and place an order. What, don't like it. No worries, Amazon will return and refund it. Go grab it.",
-      "pic": "p2.jpg"
+      "pic": "pic1.jpeg"
     },
     {
       "id": "8ed7",
-      "name": "Mohit Sharma",
-      "profession": "Accounant",
+      "name": "Anish singh Rajput",
+      "profession": "Modelling",
       "star": "5",
       "message": "I like that they haven't compromised on the quality, the hoodie fits perfectly n feels quite comfortable, however there's so much difference in the colour I purchased a Navy blue hoodie but it looks black the one which the model is wearing is kind of deceptive.(4 stars for quality n perfect fit only)",
-      "pic": "p16.jpg"
+      "pic": "hero-img-2.jpg.jpg"
     },
     {
       "id": "a451",
@@ -705,7 +759,7 @@
       "profession": "Student",
       "star": "4",
       "message": "Nice hoodie, look cool and nice for casual wear as well as for winter, nice stuff to buy. price for this should be 700-800 range. but good quality and printing. feels soft and warm.",
-      "pic": "p19.jpg"
+      "pic": "testimonial-1.jpg"
     }
   ]
 }
